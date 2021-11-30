@@ -8,7 +8,7 @@
          <form method="POST" action="login.php">
             <div class="data">
                <label>Correo</label>
-               <input type="email" required name="name">
+               <input type="email" required name="email">
             </div>
             <div class="data">
                <label>Contraseña</label>
