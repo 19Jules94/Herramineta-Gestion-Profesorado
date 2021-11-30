@@ -10,6 +10,8 @@
 
 PENDIENTE T2 + ARQUITECTURA:
 
+Mirar esto para una base rapida y vamos modificando ---> https://github.com/Raindal/php_mvc
+
 - [ ] Importar nueva base de datos de la ET0 
 
 - [ ] Modificar dos vistas (index y formulario generico) para un CRUD estandar ---> calzarle las de la ET0 de Julio
