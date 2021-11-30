@@ -12,7 +12,7 @@ PENDIENTE T2 + ARQUITECTURA:
 
 - [ ] Importar nueva base de datos de la ET0 
 
-- [ ] Modificar dos vistas (index y formulario generico) para un CRUD estandar 
+- [ ] Modificar dos vistas (index y formulario generico) para un CRUD estandar ---> calzarle las de la ET0 de Julio
 
 - [ ] Modificar un controlador (index  y fomrmulario generico) para un CRUD estandar 
 
