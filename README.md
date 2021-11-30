@@ -37,4 +37,8 @@ PENDIENTE T2 + ARQUITECTURA:
  
 - [ ] Vista para los tests 
 
-- [ ] autenticacion JWT  ---> Mirar este enlace: https://es.stackoverflow.com/questions/105194/es-posible-usar-json-web-token-sin-instalar-con-composer
+- [ ] autenticacion JWT  ---> Mirar este enlace: 
+			
+			https://es.stackoverflow.com/questions/105194/es-posible-usar-json-web-token-sin-instalar-con-composer
+
+			https://stackoverflow.com/questions/33773477/jwt-json-web-token-in-php-without-using-3rd-party-library-how-to-sign
