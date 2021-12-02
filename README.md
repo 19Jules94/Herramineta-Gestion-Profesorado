@@ -12,17 +12,21 @@ PENDIENTE T2 + ARQUITECTURA:
 
 Mirar esto para una base rapida y vamos modificando ---> https://www.youtube.com/watch?v=YBR7iSLweM0
 
-- [ ] Importar nueva base de datos de la ET0 
+- [X] Importar nueva base de datos de la ET0 (version mini con usuarios y acciones)
 
 - [ ] Modificar dos vistas (index y formulario generico) para un CRUD estandar ---> calzarle las de la ET0 de Julio
 
 - [ ] Modificar un controlador (index  y fomrmulario generico) para un CRUD estandar 
 
-- [ ] Modificar un modelo (formulario generico) para un CRUD estandar 
+- [X] Modificar dos modelos ( acciones y usuarios) para un CRUD estandar 
 
 - [ ] Crear capa de servicio para CRUD estandar  ---> Mirar estos enlaces: 
 
     https://www.reddit.com/r/PHP/comments/3c5o4u/is_this_a_proper_implementation_of_service_layer/ 
+    
+    https://stackoverflow.com/questions/6524037/designing-service-layer-classes-in-php
+    
+    https://stackoverflow.com/questions/6499499/where-to-validate-and-process-form-submission-in-mvc-website
 
     https://www.it-swarm-es.com/es/model-view-controller/mvcs-model-view-controller-service/971336311/
 
