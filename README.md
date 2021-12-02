@@ -14,9 +14,9 @@ Mirar esto para una base rapida y vamos modificando ---> https://www.youtube.com
 
 - [X] Importar nueva base de datos de la ET0 (version mini con usuarios y acciones)
 
-- [ ] Modificar dos vistas (index y formulario generico) para un CRUD estandar ---> calzarle las de la ET0 de Julio
+- [ ] Modificar las vistas (index y acciones y usuarios) para un CRUD estandar ---> calzarle las de la ET0 de Julio
 
-- [ ] Modificar un controlador (index  y fomrmulario generico) para un CRUD estandar 
+- [ ] Modificar tres controladores (index  y usuarios y acciones) para un CRUD estandar ---> en ello en el controlador de acciones (Posts.php
 
 - [X] Modificar dos modelos ( acciones y usuarios) para un CRUD estandar 
 
