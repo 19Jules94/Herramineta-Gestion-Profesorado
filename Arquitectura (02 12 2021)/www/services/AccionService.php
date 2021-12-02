@@ -1,5 +1,5 @@
 <?php
-class AlumnoService
+class AccionService
 {
     private $pdo;
 
