@@ -10,7 +10,7 @@
 
 PENDIENTE T2 + ARQUITECTURA:
 
-Mirar esto para una base rapida y vamos modificando ---> https://github.com/Raindal/php_mvc
+Mirar esto para una base rapida y vamos modificando ---> https://www.youtube.com/watch?v=YBR7iSLweM0
 
 - [ ] Importar nueva base de datos de la ET0 
 
