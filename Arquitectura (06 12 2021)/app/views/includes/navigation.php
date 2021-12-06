@@ -16,7 +16,7 @@
             <a href="<?php echo URLROOT; ?>/contact">Contact</a>
         </li>
         <li class="btn-login">
-            <?php if(isset($_SESSION['user_id'])) : ?>
+            <?php if(isset($_SESSION['dni'])) : ?>
                 <a href="<?php echo URLROOT; ?>/users/logout">Log out</a>
             <?php else : ?>
                 <a href="<?php echo URLROOT; ?>/users/login">Login</a>
