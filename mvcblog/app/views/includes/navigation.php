@@ -1,13 +1,17 @@
-<nav class="top-nav">
-    <ul>
+<div id="header">
+    <ul class="nav">
+    
         <li>
-            <a href="<?php echo URLROOT; ?>/index">Index</a>
-        </li>
-        <li>
-            <a href="<?php echo URLROOT; ?>/acciones">CRUD Acciones</a>
+            <a href="<?php echo URLROOT; ?>/index" class="sbm">Index</a>
         </li>
         
-        <li class="btn-login">
+            <li><a href="" class="sbm">Gestion</a>
+            <ul>
+        <li>
+            <a href="<?php echo URLROOT; ?>/acciones" class="sbm">CRUD Acciones</a>
+        </li>
+        </ul>
+        <li id="iniciar-ses" style="float:right" id="in-ses">
             <?php if(isset($_SESSION['dni'])) : ?>
                 <a href="<?php echo URLROOT; ?>/users/logout">Log out</a>
             <?php else : ?>
@@ -15,4 +19,4 @@
             <?php endif; ?>
         </li>
     </ul>
-</nav>
+    

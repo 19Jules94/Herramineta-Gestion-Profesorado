@@ -8,42 +8,42 @@
     ?>
 </div>
 
-<div class="container center">
-    <h1>
-        Crear nueva accion
-    </h1>
+<div id="main-container">
+      <div id="form-alta">
+ <h2>Nueva accion:</h2>
 
     <form action="<?php echo URLROOT; ?>/acciones/create" method="POST">
-        <div class="form-item">
-            <input type="number" name="id" placeholder="Id...">
-
+         <label for="" class="lbl">ID:</label><br />
+            <input class="inp" type="number" placeholder="ID *" name="id"><br />
             <span class="invalidFeedback">
                 <?php echo $data['idError']; ?>
-            </span>
-        </div>
-        <div class="form-item">
-            <input type="text" name="nombre" placeholder="Nombre...">
+            </span><br />
+        
+        
+        <label for="" class="lbl">Nombre accion:</label><br />
+            <input class="inp" type="text" placeholder="Nombre *" name="nombre"><br />
 
             <span class="invalidFeedback">
                 <?php echo $data['nombreError']; ?>
-            </span>
-        </div>
-        <div class="form-item">
-            <input type="text" name="descripcion" placeholder="Descripcion...">
+            </span><br />
+        
+      <label for="" class="lbl">Descripcion:</label><br />
+            <input class="inp" type="text" placeholder="Descripcion *" name="descripcion"><br />
 
             <span class="invalidFeedback">
                 <?php echo $data['descripcionError']; ?>
-            </span>
-        </div>
-        <div class="form-item">
-            <input type="number" name="borrado" placeholder="Borrado...">
-
+            </span><br />
+        
+        <label for="" class="lbl">Borrado:</label><br />
+            <input class="inp" type="number" placeholder="Borrado *" name="borrado"><br />
             <span class="invalidFeedback">
                 <?php echo $data['borradoError']; ?>
-            </span>
-        </div>
+            </span><br />
         
-
-        <button class="btn green" name="submit" type="submit">Submit</button>
+        
+            <div class="btn">
+                 <div class="inner"></div>
+        <button class="c-usuario" name="submit" type="submit">Submit</button>
     </form>
+</div>
 </div>

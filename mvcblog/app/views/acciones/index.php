@@ -8,18 +8,36 @@
     ?>
 </div>
 
-<div class="container">
+<div class="text">
     <?php if(isLoggedIn()): ?>
-        <a class="btn green" href="<?php echo URLROOT; ?>/acciones/create">
+        <a class="btn" href="<?php echo URLROOT; ?>/acciones/create">
             Create
         </a>
     <?php endif; ?>
-
+<h2>Gestion Acciones</h2>
+<table class="tabla-gestion">
+    <tr>
+          <th>Accion</th>
+          <th>Descripcion</th>
+          <th>Borrado</th>  
+          </tr>
+          <tr>
     <?php foreach($data['accion'] as $accion): ?>
-        <div class="container-item">
+
             <?php //if(isset($_SESSION['dni']) 
             //&& $_SESSION['user_id'] == $post->user_id): ?>
-                <a
+            <?php //endif; ?>
+            <td>
+                <?php echo $accion->nombre; ?>
+            </td>
+            <td>
+                <?php echo $accion->descripcion ?>
+            </td>
+            <td>
+                <?php echo $accion->borrado ?>
+            </td>
+            <td>
+             <a
                     class="btn orange"
                     href="<?php echo URLROOT . "/acciones/update/" . $accion->id ?>">
                     Update
@@ -27,22 +45,8 @@
                 <form action="<?php echo URLROOT . "/acciones/delete/" . $accion->id ?>" method="POST">
                     <input type="submit" name="delete" value="Delete" class="btn red">
                 </form>
-            <?php //endif; ?>
-            <h2>
-                <?php echo $accion->nombre; ?>
-            </h2>
-
-            <h3>
-                
-            </h3>
-
-            <p>
-                <?php echo $accion->descripcion ?>
-            </p>
-
-            <p>
-                <?php echo $accion->borrado ?>
-            </p>
+            </td>
+            </tr>
         </div>
     <?php endforeach; ?>
 </div>

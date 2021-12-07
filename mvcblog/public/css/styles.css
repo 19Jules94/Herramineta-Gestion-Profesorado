@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+* {
+  margin:0px;
+  padding:0px;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.nav { 
+  display: inline-block;
+  flex-flow: row wrap ;
+  width: 100%;
+  background-color:#000;
+}
+#heade { 
+ 
+  width: 100%;
+  background-color:#000;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav > li {
+  float:left;
+}
+
+.sbm{
+  background-color:#000;
+  color:#fff;
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+}
+
+.nav li a:hover {
+  background-color:#434343;
+}
+
+.nav li ul {
+  display:none;
+  position:absolute;
+  min-width:140px;
+}
+
+.nav li:hover > ul {
+  display:block;
+}
+
+.nav li ul li {
+  position:relative;
+}
+
+.nav li ul li ul {
+  right:-120px;
+  top:0px;
+}
+#iniciar-ses {
+   background-color: rgb(0, 140, 255);
+}
+#in-ses{
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;
+  color:#fff;
+}
+/* Cuando un suario esta logueado */
+
+#logueado {
+  color: white;
+  text-align: center;
+  padding: 14px 36px;
+}
+
+/* Alta usuario */
+#main-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#form-alta {
+  margin-top: 60px;
+  width: 540px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+#c-usuario {
+  width: 120px;
+  height: 35px;
+  margin-top: 20px;
+  background-color: rgb(53, 130, 245);
+  border: rgb(53, 130, 245);
+  font-size: 16px;
+  color: white;
+  border-radius: 6px;
+  float: right;
+}
+
+.inp {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  width: 500px;
+  height: 35px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 2px solid rgb(34, 34, 34);
+}
+.lbl {
+  font-size: 18px;
+}
+/* pagina de nueva asignatura */
+
+select {
+  width: 500px;
+  height: 35px;
+}
+select:focus {
+  min-width: 500px;
+  width: auto;
+  height: 35px;
+}
+
+/* Tabla de gestion */
+
+.tabla-gestion {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: #dddddd;
+  border: 1px solid #ffff;
+}
+
+/* botones tablas gestion */
+.gestion {
+  background-color: #ffff;
+  border: 0px;
+  width: 20px;
+}
+.gestion:hover {
+  cursor: pointer;
+}
+.fa-plus {
+  font-size: 18px;
+  color: rgb(20, 243, 20);
+}
+.fa-trash-alt {
+  font-size: 18px;
+  color: rgb(243, 57, 57);
+}
+.fa-pencil-alt {
+  font-size: 18px;
+  color: rgb(34, 81, 238);
+}
+.fa-plus:hover,
+.fa-trash-alt:hover,
+.fa-pencil-alt:hover {
+  color: black;
+}
+
+#section-landing {
+    background: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    }
+
+    .wrapper-landing {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    top: 40%;
+}
+

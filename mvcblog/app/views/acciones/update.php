@@ -8,55 +8,40 @@
     ?>
 </div>
 
-<div class="container center">
-    <h1>
-        Update accion
-    </h1>
+<div id="main-container">
+      <div id="form-alta">
+ <h2>Actualizar accion:</h2>
 
     <form
     action="<?php echo URLROOT; ?>/acciones/update/<?php echo $data['accion']->id ?>" method="POST">
-        <div class="form-item">
-            <input
-                type="number"
-                name="id"
-                value="<?php echo $data['accion']->id ?>">
-
+        <label for="" class="lbl">ID:</label><br />
+            <input class="inp" type="number" placeholder="ID *" name="id" value="<?php echo $data['accion']->id ?>"><br />
             <span class="invalidFeedback">
                 <?php echo $data['idError']; ?>
-            </span>
-        </div>
+            </span><br />
 
-        <div class="form-item">
-            <input
-                type="text"
-                name="nombre"
-                value="<?php echo $data['accion']->nombre ?>">
-
+       <label for="" class="lbl">Nombre:</label><br />
+            <input class="inp" type="text" placeholder="Nombre *" name="nombre" value="<?php echo $data['accion']->nombre ?>"><br />
             <span class="invalidFeedback">
                 <?php echo $data['nombreError']; ?>
-            </span>
-        </div>
-        <div class="form-item">
-            <input
-                type="text"
-                name="descripcion"
-                value="<?php echo $data['accion']->descripcion ?>">
-
+            </span><br />
+        <label for="" class="lbl">Descripcion:</label><br />
+            <input class="inp" type="text" placeholder="Descripcion *" name="descripcion" value="<?php echo $data['accion']->descripcion ?>"><br />
             <span class="invalidFeedback">
                 <?php echo $data['descripcionError']; ?>
-            </span>
-        </div>
-        <div class="form-item">
-            <input
-                type="number"
-                name="borrado"
-                value="<?php echo $data['accion']->borrado ?>">
-
+            </span><br />
+        <label for="" class="lbl">Borrado:</label><br />
+            <input class="inp" type="number" placeholder="Borrado *" name="borrado" value="<?php echo $data['accion']->borrado ?>"><br />
             <span class="invalidFeedback">
                 <?php echo $data['borradoError']; ?>
-            </span>
-        </div>
+            </span><br />
 
-        <button class="btn green" name="submit" type="submit">Submit</button>
+        <div class="btn">
+                 <div class="inner"></div>    
+        <button class="c-usuario" name="submit" type="submit">Submit</button>
     </form>
 </div>
+</div>
+
+
+
