@@ -14,9 +14,15 @@ Mirar esto para una base rapida y vamos modificando ---> https://www.youtube.com
 
 - [X] Importar nueva base de datos de la ET0 (version mini con usuarios y acciones)
 
-- [ ] Modificar las vistas (index y acciones y usuarios) para un CRUD estandar ---> calzarle las de la ET0 de Julio
+- [ ] Modificar las vistas (index y acciones y usuarios) para un CRUD estandar ---> calzarle las de la ET0 de Julio (hasta entonces estan las del MVC)
 
-- [ ] Modificar tres controladores (index  y usuarios y acciones) para un CRUD estandar ---> en ello en el controlador de acciones (Posts.php
+- [X] Modificar tres controladores (index  y usuarios y acciones) para un CRUD estandar ---> 
+
+- Toquetear los formularios para arrays asociativos y facilitar la vida controlador -> servicios --->
+
+https://anto.online/code/html-form-submit-associative-array-with-php/
+
+https://stackoverflow.com/questions/14050812/how-to-post-an-associative-array-in-php
 
 - [X] Modificar dos modelos ( acciones y usuarios) para un CRUD estandar 
 
