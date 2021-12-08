@@ -8,6 +8,13 @@
             return new $model();
         }
 
+        public function service($service) {
+            //Require model file
+            require_once '../app/services/' . $service . '.php';
+            //Instantiate model
+            return new $service();
+        }
+
         //Load the view (checks for the file)
         public function view($view, $data = []) {
             if (file_exists('../app/views/' . $view . '.php')) {

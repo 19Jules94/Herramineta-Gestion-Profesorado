@@ -1,15 +1,15 @@
 <?php
 class Acciones extends Controller {
     public function __construct() {
-        $this->accionModel = $this->model('Accion');
+        $this->accionServicio = $this->service('Accions');
     }
 
     public function index() {
-        $accion = $this->accionModel->findAllActions();
+        $data = $this->accionServicio->listarAcciones();
 
-        $data = [
-            'accion' => $accion
-        ];
+       // $data = [
+    //        'accion' => $accion
+    //    ];
 
         $this->view('acciones/index', $data);
     }
