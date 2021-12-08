@@ -18,7 +18,22 @@ class Acciones extends Controller {
         if(!isLoggedIn()) {
             header("Location: " . URLROOT . "/acciones");
         }
-
+        $data = [
+            'id' => '',
+            'nombre' => '',
+            'descripcion' => '',
+            'borrado' => '',
+            'idError' => '',
+            'nombreError' => '',
+            'descripcionError' => '',
+            'borradoError' => ''
+        ];
+        if ($this->accionServicio->crearAcciones()){
+            header("Location: " . URLROOT . "/acciones");
+            }else {
+                $this->view('acciones/create', $data);
+                }
+ /*
         $data = [
             'id' => '',
             'nombre' => '',
@@ -73,9 +88,33 @@ class Acciones extends Controller {
         }
 
         $this->view('acciones/create', $data);
-    }
+  */ 
+   
+ }
 
     public function update($id) {
+
+        if(!isLoggedIn()) {
+            header("Location: " . URLROOT . "/acciones");
+}
+        $data = [
+            'accion' => '',
+            'id' => '',
+            'nombre' => '',
+            'descripcion' => '',
+            'borrado' => '',
+            'idError' => '',
+            'nombreError' => '',
+            'descripcionError' => '',
+            'borradoError' => ''
+        ];    
+        if ($this->accionServicio->actualizarAcciones($id)){
+            header("Location: " . URLROOT . "/acciones");
+            }else {
+                $this->view('acciones/update', $data);
+                }
+
+/*
 
         $accion = $this->accionModel->findAccionById($id);
 
@@ -144,18 +183,24 @@ class Acciones extends Controller {
         }
 
         $this->view('acciones/update', $data);
+        */
     }
 
     public function delete($id) {
 
-        $accion = $this->accionModel->findAccionById($id);
-
+       
         if(!isLoggedIn()) {
             header("Location: " . URLROOT . "/acciones");
-        } //elseif($post->user_id != $_SESSION['user_id']){
+}
+            if ($this->accionServicio->eliminarAcciones($id)){
+            header("Location: " . URLROOT . "/acciones");
+            } else {
+                die('Something went wrong!');
+                }
+         //elseif($post->user_id != $_SESSION['user_id']){
            // header("Location: " . URLROOT . "/posts");
        // }
-
+/*
         $data = [
             'accion' => $accion,
             'id' => '',
@@ -177,6 +222,7 @@ class Acciones extends Controller {
                die('Something went wrong!');
             }
         }
+        */
     }
 }
 
