@@ -5,12 +5,10 @@
 	- [X] Crear controlador
 	- [X] Crear modelos
 
-### Herramienta Gestion del Profesorado
-------------
 - Tareas para la entrega 2
-	- [_] Arreglar vista del Login y asegurar todos los iconos
-	- [_] Pulir codigo de la ET1
-	- [_] Crear todos los modelos
+	- [ ] Arreglar vista del Login y asegurar todos los iconos
+	- [ ] Pulir codigo de la ET1
+	- [ ] Crear todos los modelos
 
 
 
