@@ -22,9 +22,9 @@ Mirar esto para una base rapida y vamos modificando ---> https://www.youtube.com
 
 - [ ] Modificar las vistas (index y acciones y usuarios) para un CRUD estandar ---> calzarle las de la ET0 de Julio (hasta entonces estan las del MVC)
 
-- [X] Modificar tres controladores (index  y usuarios y acciones) para un CRUD estandar ---> 
+- [X] Modificar tres controladores (index  y usuarios y acciones) para un CRUD estandar
 
-- Toquetear los formularios para arrays asociativos y facilitar la vida controlador -> servicios --->
+- Toquetear los formularios para arrays asociativos y facilitar la vida controlador -> servicios:
 
 https://anto.online/code/html-form-submit-associative-array-with-php/
 
@@ -43,7 +43,7 @@ https://stackoverflow.com/questions/14050812/how-to-post-an-associative-array-in
     https://www.it-swarm-es.com/es/model-view-controller/mvcs-model-view-controller-service/971336311/
 
 
-- [ ] Importar CSS de la ET0 para las vistas de Julio 
+- [X] Importar CSS de la ET0 para las vistas de Julio 
 
 - [ ] Adaptar traducciones 
 
