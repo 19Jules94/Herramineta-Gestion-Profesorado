@@ -26,7 +26,7 @@ Mirar esto para una base rapida y vamos modificando ---> https://www.youtube.com
 
 - [X] Modificar tres controladores (index  y usuarios y acciones) para un CRUD estandar
 
-- Toquetear los formularios para arrays asociativos y facilitar la vida controlador -> servicios:
+- [] Toquetear los formularios para arrays asociativos y facilitar la vida controlador -> servicios:
 
 https://anto.online/code/html-form-submit-associative-array-with-php/
 
