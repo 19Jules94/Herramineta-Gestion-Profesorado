@@ -10,17 +10,19 @@
 	- [ ] Pulir codigo de la ET1
 	- [ ] Crear todos los modelos
 
+- Tareas para la entrega 3
+	- [ ] Hacer todo lo de la ARQUITECTURA como la quiere Rodeiro
 
 
 # MVC-PDP
 
-PENDIENTE T2 + ARQUITECTURA:
+PENDIENTE DE LA ARQUITECTURA:
 
 Mirar esto para una base rapida y vamos modificando ---> https://www.youtube.com/watch?v=YBR7iSLweM0
 
 - [X] Importar nueva base de datos de la ET0 (version mini con usuarios y acciones)
 
-- [ ] Modificar las vistas (index y acciones y usuarios) para un CRUD estandar ---> calzarle las de la ET0 de Julio (hasta entonces estan las del MVC)
+- [X] Modificar las vistas (index y acciones y usuarios) para un CRUD estandar ---> calzarle las de la ET0 de Julio (hasta entonces estan las del MVC)
 
 - [X] Modificar tres controladores (index  y usuarios y acciones) para un CRUD estandar
 
@@ -32,7 +34,7 @@ https://stackoverflow.com/questions/14050812/how-to-post-an-associative-array-in
 
 - [X] Modificar dos modelos ( acciones y usuarios) para un CRUD estandar 
 
-- [ ] Crear capa de servicio para CRUD estandar  ---> Mirar estos enlaces: 
+- [ ] Crear capa de servicio DECENTE para CRUD estandar  ---> Mirar estos enlaces: 
 
     https://www.reddit.com/r/PHP/comments/3c5o4u/is_this_a_proper_implementation_of_service_layer/ 
     
@@ -44,6 +46,10 @@ https://stackoverflow.com/questions/14050812/how-to-post-an-associative-array-in
 
 
 - [X] Importar CSS de la ET0 para las vistas de Julio 
+
+- [ ] Validar data en el index
+
+- [ ] Arreglar que los servicios devuelvan cosas
 
 - [ ] Adaptar traducciones 
 
