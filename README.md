@@ -34,7 +34,7 @@ https://stackoverflow.com/questions/14050812/how-to-post-an-associative-array-in
 
 - [X] Modificar dos modelos ( acciones y usuarios) para un CRUD estandar 
 
-- [ ] Crear capa de servicio DECENTE para CRUD estandar  ---> Mirar estos enlaces: 
+-[ ] Crear capa de servicio DECENTE para CRUD estandar  ---> Mirar estos enlaces: 
 
     https://www.reddit.com/r/PHP/comments/3c5o4u/is_this_a_proper_implementation_of_service_layer/ 
     
