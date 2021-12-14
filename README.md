@@ -26,7 +26,7 @@ Mirar esto para una base rapida y vamos modificando ---> https://www.youtube.com
 
 - [X] Modificar tres controladores (index  y usuarios y acciones) para un CRUD estandar
 
-- [ ] Toquetear los formularios para arrays asociativos y facilitar la vida controlador -> servicios:
+- [ ] Toquetear los formularios para arrays asociativos y facilitar la vida controlador y servicios:
 
 https://anto.online/code/html-form-submit-associative-array-with-php/
 
@@ -34,7 +34,7 @@ https://stackoverflow.com/questions/14050812/how-to-post-an-associative-array-in
 
 - [X] Modificar dos modelos ( acciones y usuarios) para un CRUD estandar 
 
-- [ ] Crear capa de servicio DECENTE para CRUD estandar  ---> Mirar estos enlaces: 
+- [ ] Crear capa de servicio DECENTE (Estructura del array ok code resource) para CRUD estandar  ---> Mirar estos enlaces: 
 
     https://www.reddit.com/r/PHP/comments/3c5o4u/is_this_a_proper_implementation_of_service_layer/ 
     
